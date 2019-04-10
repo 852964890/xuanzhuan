@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.dakuang{
+				position: relative;
+				width: 500px;
+				height: 500px;
+				/*border: 1px red solid;*/
+				
+			}
+			
+			.quan1{
+				width: 180px;
+				height: 180px;
+				border: 3px solid;
+				border-radius: 180px;
+				border-top-color: lightskyblue;
+				border-bottom-color: transparent;
+				border-left-color: lightskyblue;
+				border-right-color: transparent;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto auto;
+				animation: xuanzhuan 3S;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-delay: 0.2s;
+			
+			}
+			.quan2{
+				width: 150px;
+				height: 150px;
+				border: 3px solid;
+				border-radius: 150px;
+				border-top-color: lightcoral;
+				border-bottom-color: transparent;
+				border-left-color: lightcoral;
+				border-right-color: transparent;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto auto;
+				animation: xuanzhuan 3S;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-delay: 0.4S;
+				
+			}
+			.quan3{
+				width: 120px;
+				height: 120px;
+				border: 3px solid;
+				border-radius: 120px;
+				border-top-color: lawngreen;
+				border-bottom-color: transparent;
+				border-left-color: lawngreen;
+				border-right-color: transparent;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto auto;
+				animation: xuanzhuan 3S;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-delay: 0.6S;
+			}
+			.quan4{
+				width: 90px;
+				height: 90px;
+				border: 3px solid;
+				border-radius: 90px;
+				border-top-color: yellow;
+				border-bottom-color: transparent;
+				border-left-color: yellow;
+				border-right-color: transparent;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto auto;
+				animation: xuanzhuan 3S;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-delay: 0.8S;
+				
+			}
+			.quan5{
+				width: 60px;
+				height: 60px;
+				border: 3px solid;
+				border-radius: 60px;
+				border-top-color: lightpink;
+				border-bottom-color: transparent;
+				border-left-color: lightpink;
+				border-right-color: transparent;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto auto;
+				animation: xuanzhuan 3S;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-delay: 1.0S;
+			}	
+			
+			@keyframes xuanzhuan{
+				from{transform: rotate(0deg);}
+				to{transform: rotate(360deg);}
+			}
+			
+			img{
+				width: 500px;
+				height: 500px;
+				animation: xuanzhuan 3S;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="dakuang">
+            <img src="img/timg.jpg" />
+			<div class="quan1"></div>
+			<div class="quan2"></div>
+			<div class="quan3"></div>
+			<div class="quan4"></div>
+			<div class="quan5"></div>
+		</div>		
+	</body>
+</html>
